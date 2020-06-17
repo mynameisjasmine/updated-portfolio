@@ -139,6 +139,13 @@ hr {
   }
 }
 
+.resume_tag {
+  text-align: center;
+  margin-bottom: 5rem;
+  
+  
+}
+
 /* Helpers */
 
 .mt {
