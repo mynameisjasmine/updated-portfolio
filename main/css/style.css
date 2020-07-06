@@ -121,6 +121,31 @@ hr {
   background-color: #1abc9c;
 }
 
+.resume {
+  margin-left: 25rem
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .resume {
+    margin-left: 1rem
+  }
+}
+
+@media (min-width: 360px) and (max-width: 660px) {
+  .resume {
+   max-width: 540px;
+   max-height: 540px;
+   margin-left: 4rem
+  }
+}
+
+.resume_tag {
+  text-align: center;
+  margin-bottom: 5rem;
+  
+  
+}
+
 /* Helpers */
 
 .mt {
