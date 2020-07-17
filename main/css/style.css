@@ -146,6 +146,20 @@ hr {
   
 }
 
+.p-title {
+  font-weight: bold;
+}
+
+.brd {
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+
+.blg-text {
+  color: rgb(89, 146, 211);
+}
+
 /* Helpers */
 
 .mt {
