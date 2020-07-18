@@ -156,6 +156,10 @@ hr {
   border-bottom: 1px solid gray;
 }
 
+.stack {
+  font-size: smaller
+}
+
 .blg-text {
   color: rgb(89, 146, 211);
 }
