@@ -164,6 +164,53 @@ hr {
   color: rgb(89, 146, 211);
 }
 
+.bp-blurb {
+  font-weight: 450;
+  font-style: italic;
+  margin: 5rem 0rem 7rem 0rem;
+}
+
+.bp-ul {
+
+  /* width: 20%; */
+  
+  display: flex;
+  margin-right: 4rem;
+  /* padding-right: 15rem; */
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.bp-ul-stack {
+
+  /* width: 20%; */
+  
+  display: flex;
+  margin-right: 1.5rem;
+  /* padding-right: 15rem; */
+  flex-wrap: wrap;
+}
+
+.bp-list {
+  margin-right: 4rem;
+  /* border: 2px solid red; */
+  
+}
+
+.bp-list1 {
+  /* border: 2px solid red; */
+  white-space: nowrap;
+}
+
+.bp-title {
+  margin-right: 7rem;
+}
+
+.bp-title-stack {
+  margin-right: 9rem;
+}
+
 /* Helpers */
 
 .mt {
