@@ -122,12 +122,14 @@ hr {
 }
 
 .resume {
-  margin-left: 25rem
+  margin-left: 25rem;
+  border: 1px solid gray;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   .resume {
-    margin-left: 1rem
+    margin-left: 1rem;
+    
   }
 }
 
@@ -135,7 +137,8 @@ hr {
   .resume {
    max-width: 540px;
    max-height: 540px;
-   margin-left: 4rem
+   margin-left: 4rem;
+   
   }
 }
 
@@ -161,13 +164,23 @@ hr {
 }
 
 .blg-text {
-  color: rgb(89, 146, 211);
+  color: rgb(74, 147, 207);
 }
 
 .bp-blurb {
   font-weight: 450;
   font-style: italic;
   margin: 5rem 0rem 7rem 0rem;
+}
+
+.p-link {
+  font-weight: 450;
+  color: rgb(76, 14, 90)
+}
+
+.src {
+  font-size: small;
+  font-style: italic;
 }
 
 .bp-ul {
