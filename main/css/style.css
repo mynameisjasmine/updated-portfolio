@@ -224,6 +224,11 @@ hr {
   margin-right: 9rem;
 }
 
+.prof {
+  border: 2px solid rgb(168, 7, 147);
+  border-style: inset;
+}
+
 /* Helpers */
 
 .mt {
