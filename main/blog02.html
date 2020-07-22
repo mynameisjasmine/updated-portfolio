@@ -68,14 +68,21 @@
           <p>
             <bd>July 9, 2020</bd>
           </p>
-          <h4>An Image Post</h4>
-          <p><img class="img-responsive" src="img/blog01.jpg" alt=""></p>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-          <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-          <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          <!-- <h4>An Image Post</h4> -->
+          <p><b>Today</b> let's take a deeper look at the <span class="len">.slice( )</span> method we used in my last post to access the last element of an array. This time I will show how to use this method to return a portion of an array.</p>
+          <p>We use the following syntax for this method: </p>
+          <img class="snippet" src="img/slicesynt.png">
+          
+          <p>This method will return a copy (a shallow copy) of your array. It will select the elements starting at your <span class="itl">start </span> argument and end at your <span class="itl">end </span> argument. Keep in mind the new array object will not include your end argument element.</p>
+          <img src="img/slicenames.png">
+          <p>It is also not required that you use both arguments, you can pass in just 1 argument and the method will return all the elements starting at your <span class="itl">start </span> argument until the end of the array. You can see this in the example below: </p>
+          <img src="img/slicecars.png">
+          <p>
+            This is just one method of getting a portion of an array, but it's a quick way to get you started. Earlier I mentioned that this method returns a shallow copy of the original array, in my next post I will explain the difference between a <span class="itl">shallow</span> copy and a <span class="itl">deep</span> copy.
+          </p>
           <br>
           <p>
-            <bt>TAGS: <a href="#">Wordpress</a> - <a href="#">Web Design</a></bt>
+            <bt>TAGS: <a href="#">javascript</a> - <a href="#">arrays</a> - <a href="#">methods</a></bt>
           </p>
           <hr>
           <p><a href="blog.html"><img src="img/arrow.png"> back</a></p>
