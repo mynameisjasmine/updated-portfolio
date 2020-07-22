@@ -164,7 +164,18 @@ hr {
 }
 
 .blg-text {
-  color: rgb(74, 147, 207);
+  color: rgb(167, 105, 185);
+}
+
+.byline {
+  font-size: smaller;
+}
+
+.len {
+  background-color: lightgray;
+  font-weight: 550;
+  /* color: rgb(197, 7, 80); */
+  /* font-style: italic; */
 }
 
 .bp-blurb {
